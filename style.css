@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(266deg, rgb(180, 165, 255), rgb(209, 78, 33));
+    height: 100vh;
+    color: #fff;
+
+}
+.quote-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote-item {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    border: 14px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    text-align: center;
+}
+.quote-phrase {
+    font-size: 30px;
+}
+.quote-author {
+    padding-top: 20px;
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+}
+.quote-btn {
+    margin-top: 60px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.quote-btn:hover {
+    background-color: rgb(231, 230, 230);
+}
